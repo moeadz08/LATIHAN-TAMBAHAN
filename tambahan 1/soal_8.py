@@ -9,4 +9,4 @@ sebuah string baru berbentuk "piramida" dari kata tersebut.
 kata = input("Masukkan sebuah kata: ")
 
 for x in range(len(kata)):
-    print(kata[:x+1])
+    print(kata[:x+1]) # ngambil dari index paling awal sampe setelahnya(tapi nambah terus 1 persatu)

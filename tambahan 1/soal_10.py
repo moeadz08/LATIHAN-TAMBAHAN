@@ -14,6 +14,7 @@ correct_pass = "rahasia123"
 maks_percobaan = 3
 
 for coba in range(maks_percobaan):
+    print(coba)
     password = input("masukkan password: ")
 
     if password == correct_pass:
